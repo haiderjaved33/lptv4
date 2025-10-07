@@ -3,7 +3,7 @@
 # and save this code as app.py, then run 'streamlit run app.py' in your terminal
 
 import streamlit as st
-import scikit-learn
+
 from data_processing import load_and_clean_data, select_features
 from model_training import train_estimation_models, train_main_model
 from prediction_logic import (
@@ -105,3 +105,4 @@ else:
     else:
 
         st.error("Failed to load or clean data.")
+
