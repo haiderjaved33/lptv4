@@ -2,6 +2,7 @@
 
 import pandas as pd
 import numpy as np
+import scikit-learn
 
 def load_and_clean_data(file_path='/content/Base Data CSV-2.csv'):
     """
@@ -88,4 +89,5 @@ if __name__ == '__main__':
         if X is not None and y is not None:
             print("\nFeatures and target selected.")
             print("Features (X) shape:", X.shape)
+
             print("Target (y) shape:", y.shape)
