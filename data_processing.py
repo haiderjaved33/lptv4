@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import scikit-learn
 
-def load_and_clean_data(file_path='/content/Base Data CSV-2.csv'):
+def load_and_clean_data (file_path='/content/Base Data CSV-2.csv'):
     """
     Loads the data, converts relevant columns to numeric, and handles outliers.
 
@@ -91,3 +91,4 @@ if __name__ == '__main__':
             print("Features (X) shape:", X.shape)
 
             print("Target (y) shape:", y.shape)
+
