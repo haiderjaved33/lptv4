@@ -1,5 +1,6 @@
 # model_training.py
 
+import scikit-learn
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.linear_model import Lasso
@@ -73,4 +74,5 @@ if __name__ == '__main__':
     #         total_cases_model, pf_cases_model = train_estimation_models(cleaned_df)
     #         main_model, X_test, y_test = train_main_model(X, y)
     #         print("\nModels trained.")
+
     pass # Placeholder as we don't have the data loading here directly
