@@ -2,6 +2,7 @@
 
 import pandas as pd
 import math
+import scikit-learn
 
 # Assuming models and percentile_75 are loaded or available in the application environment
 
@@ -100,4 +101,5 @@ if __name__ == '__main__':
     print("NW PET Jacks (5 vehicles):", calculate_nwpet_jacks(5))
     print("DRP Jacks (10 loads):", calculate_drp_jacks(10))
     print("Manual Labor (3 vehicles):", calculate_manual_labor(3))
+
     print("NW PET Labor (8 vehicles):", calculate_nwpet_labor(8))
